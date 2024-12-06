@@ -1,0 +1,63 @@
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+    
+}
+
+.texts{
+    display: flex;
+  justify-content: start;
+  align-items: center; 
+  margin-bottom: 2em;
+ 
+}
+.texts img, .texts p {
+    flex-grow: 0;
+}
+.texts p {
+    margin-left: 40%;
+   
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.texts2{
+    display: flex;
+  justify-content: start;
+  align-items: center; 
+  margin-bottom: 3em;
+ 
+}
+
+.texts2 img{
+    margin-left: auto;
+}
+
+
+.texts2 img, .texts p {
+    flex-grow: 0;
+}
+.texts2 p {
+    margin-right: 40%;
+   
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.clm{
+    transition: all 0.3s;
+}
+
+.clm:hover{
+    transform: scale(1.05);
+}
+
+.clblink{
+    animation: blink 2s linear infinite;
+    
+}

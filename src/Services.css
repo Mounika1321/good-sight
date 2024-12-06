@@ -1,0 +1,39 @@
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity to make it darker or lighter */
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.sblink{
+    animation: blink 2s linear infinite;
+    
+}
+.sm{
+    transition: all 0.3s;
+}
+
+.sm:hover{
+    transform: scale(1.05);
+}
+hr.dotted {
+    border-top: 5px dotted orange;
+}
