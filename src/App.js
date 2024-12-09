@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import image from './download.jpeg';
-import { BrowserRouter ,Routes,Route} from 'react-router-dom';
+import { BrowserRouter,HashRouter ,Routes,Route} from 'react-router-dom';
 import { Instagram } from 'react-bootstrap-icons';
 import About from './About';
 import EyeGlasses from './EyeGlasses';
@@ -28,7 +28,7 @@ import Lenses from './Lenses';
 const App = ()=> {
   return (
    
-      <BrowserRouter>
+      <HashRouter>
       <ScrollTop/>
       
       <Routes>
@@ -46,7 +46,7 @@ const App = ()=> {
         
       </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
       
 
     
