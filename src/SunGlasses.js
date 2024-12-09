@@ -39,6 +39,7 @@ import './SunGlasses.css';
                             <Card    style={{ width: '100%' }} data-aos='fade-up'>
                                 
       <Card.Img  class="mm" variant="top" src={curelm.IMG} />
+      {console.log(curelm.IMG)}
    
       <Card.Body>
       <Card.Title ><center>{curelm.Title}</center></Card.Title>
