@@ -2,10 +2,10 @@ const SunGlassesData=[
     {
         Id:1,
         Title:'Rayban',
-        IMG:'SunglassesImages/Rayban.jpg',
-        IMG3:'SunglassesImages/Rayban1.png',
-        IMG4:'SunglassesImages/Rayban3.png',
-        IMG5:'SunglassesImages/Rayban2.png',
+        IMG:'./SunglassesImages/Rayban.jpg',
+        IMG3:'./SunglassesImages/Rayban1.png',
+        IMG4:'./SunglassesImages/Rayban3.png',
+        IMG5:'./SunglassesImages/Rayban2.png',
         Description:'Ray-Ban sunglasses are renowned for their iconic style and exceptional quality, offering a blend of timeless design and modern functionality. With a diverse range of frames and lenses, including classic aviators and Wayfarers, they cater to various fashion preferences and face shapes. Ray-Ban lenses are crafted to provide superior UV protection, reduce glare, and enhance visual clarity. Each pair is constructed from durable materials, ensuring long-lasting wear and comfort. Ray-Bans commitment to both style and performance makes them a popular choice for fashion-conscious individuals seeking reliable eye protection.',
         
     },
