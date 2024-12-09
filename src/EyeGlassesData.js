@@ -50,7 +50,7 @@ const EyeGlassesData=[
     {
         Id:6,
         Title:'Calvin Klein',
-        IMG:'EyeGlassesImages/CK.JPg',
+        IMG:'EyeGlassesImages/CK.jpg',
         IMG3:'EyeGlassesImages/CK1.png',
         IMG4:'EyeGlassesImages/CK2.png',
         IMG5:'EyeGlassesImages/CK3.png',
@@ -61,7 +61,7 @@ const EyeGlassesData=[
     {
         Id:7,
         Title:'Police',
-        IMG:'EyeGlassesImages/Police.JPg',
+        IMG:'EyeGlassesImages/Police.jpg',
         IMG3:'EyeGlassesImages/PL1.png',
         IMG4:'EyeGlassesImages/PL3.png',
         IMG5:'EyeGlassesImages/PL2.png',
@@ -272,7 +272,7 @@ const EyeGlassesData=[
     {
         Id:28,
         Title:'Seventh Street',
-        IMG:'EyeGlassesImages/Seventhstreet.png',
+        IMG:'EyeGlassesImages/SeventhStreet.png',
         IMG3:'EyeGlassesImages/Sev1.png',
         IMG4:'EyeGlassesImages/Sev2.png',
         IMG5:'EyeGlassesImages/Sev3.png',
@@ -332,7 +332,7 @@ const EyeGlassesData=[
     {
         Id:34,
         Title:'French Connection UK',
-        IMG:'EyeGlassesImages/Fc.png',
+        IMG:'EyeGlassesImages/FC.png',
         IMG3:'EyeGlassesImages/FC1.png',
         IMG4:'EyeGlassesImages/FC3.png',
         IMG5:'EyeGlassesImages/FC2.png',

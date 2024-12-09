@@ -52,9 +52,9 @@ const SunGlassesData=[
     {
         Id:6,
         Title:'Carrera',
-        IMG:'SunGlassesImages/Carrera4.png',
+        IMG:'SunGlassesImages/carrera4.png',
        IMG3:'SunGlassesImages/Carrera1.png',
-        IMG4:'SunGlassesImages/Carrera2.png',
+        IMG4:'SunGlassesImages/carrera2.png',
         IMG5:'SunGlassesImages/Carrera3.png',
         Description:'Carrera sunglasses are celebrated for their sporty, dynamic designs that blend high fashion with functionality. Known for their bold, distinctive frames and innovative materials, they cater to both performance and style. The lenses offer superior UV protection and clarity, ensuring optimal vision and comfort in various conditions. Carrera’s designs often feature striking color contrasts and sleek lines, making a statement while providing a secure, comfortable fit.',
        
@@ -187,9 +187,9 @@ const SunGlassesData=[
     {
         Id:19,
         Title:'FLING EYEWEAR',
-        IMG:'SunGlassesImages/Fling.png',
+        IMG:'SunGlassesImages/FLING.png',
         IMG3:'SunGlassesImages/Fling1.png',
-        IMG4:'SunGlassesImages/Fling2.png',
+        IMG4:'SunGlassesImages/FLING2.png',
         IMG5:'SunGlassesImages/Fling3.png',
         Description:'FLING sunglasses are crafted with a contemporary edge, designed to blend high fashion with practical functionality. Each pair features stylish frames that range from bold and adventurous to sleek and understated, catering to a variety of personal tastes. Made from durable materials, FLING sunglasses offer both resilience and lightweight comfort, making them suitable for all-day wear. The lenses are equipped with advanced UV protection, ensuring your eyes are safeguarded from harmful sun rays while providing clear vision. Innovative lens technologies are incorporated to minimize glare and enhance contrast, enhancing visibility in diverse lighting conditions. The ergonomic design of FLING sunglasses ensures a secure and comfortable fit, whether youre engaging in outdoor activities or simply enjoying a casual day out. The brands attention to detail is reflected in the quality of the materials and the precision of the craftsmanship. FLING offers a wide array of colors and frame shapes, allowing you to express your individual style while staying on-trend. The sunglasses often feature unique design elements that set them apart from conventional eyewear, adding a touch of flair to any outfit. FLING’s commitment to both fashion and function is evident in their versatile designs, which seamlessly transition from day to night. The lenses are also treated for scratch resistance, ensuring they remain clear and durable over time. With a focus on combining style with practicality, FLING sunglasses are designed to complement a wide range of activities and environments. Whether you’re hitting the beach, attending a social event, or simply running errands, these sunglasses provide both protection and a fashionable statement. Their modern aesthetics and high-quality construction make them a popular choice for those seeking a blend of elegance and performance. Overall, FLING sunglasses offer a stylish solution for eyewear needs, merging cutting-edge design with everyday functionality.',
     },
