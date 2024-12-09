@@ -119,7 +119,7 @@ import Transi from'./GS/Transition.mp4'
                 
                 <Col md={6} xs={6} sm={6} lg={6} data-aos="fade-up" >
              
-                <img src={currentImage} class="tg" height="100%" width="100%" alt='image'  onClick={()=>changeimg(WomanGlassesNull)}/>
+                <img src={currentImage} class="tg" height="70%" width="100%" alt='image'  onClick={()=>changeimg(WomanGlassesNull)}/>
               
                 </Col>
                 <Col md={6} xs={6} sm={6} lg={6}  >
@@ -192,7 +192,7 @@ import Transi from'./GS/Transition.mp4'
               
               </Marquee></Col>
               <Col xs={4} sm={4} md={4} lg={4}  data-aos="fade-left">
-              <img src={Eyeframes2} height="100%" width="100%" class="tg" />
+              <img src={Eyeframes2} height="70%" width="100%" class="tg" />
                 </Col>
               
                </Row>
