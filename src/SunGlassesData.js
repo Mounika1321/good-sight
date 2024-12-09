@@ -12,7 +12,7 @@ const SunGlassesData=[
     {
         Id:2,
         Title:'Vogue',
-        IMG:'/SunglassesImages/Vogue.png',
+        IMG:'SunglassesImages/Vogue.png',
         IMG3:'/SunglassesImages/Vogue1.png',
         IMG4:'/SunglassesImages/Vogue2.png',
         IMG5:'/SunglassesImages/Vogue3.png',
