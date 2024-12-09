@@ -36,4 +36,17 @@
   .container:hover .middle {
     opacity: 1;
   }
-
+  @media only screen and (max-width: 768px) {
+    #myVideo::-webkit-media-controls {
+      display: none !important;
+    }
+  
+    /* For Android Devices */
+    #myVideo::-webkit-media-controls-panel {
+      display: none !important;
+    }
+    #myVideo {
+      /* Optionally, you can hide the video container completely on mobile, if needed */
+      background-color: #000; /* Example: keep a black background to hide controls */
+    }
+  }  

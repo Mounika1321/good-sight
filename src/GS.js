@@ -76,19 +76,19 @@ import Transi from'./GS/Transition.mp4'
              <NavbarHeader/>
              
              <CarouselImage/>
-             <video  width="100%" height="100%"  src={GSV}  loop muted autoPlay></video>
+             <video className="myVideo" width="100%" height="100%"  src={GSV}  loop muted autoPlay></video>
              
               
       
                          <Row >
-               <Col md={6} lg={6} xs={6} data-aos="fade-right">
+               <Col md={6} lg={6} xs={6} sm={6} data-aos="fade-right">
                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SPPqZo0rblY?si=k4pGMnRSWyo2h9YS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                
               
                </Col>
-               <Col md={6} lg={6} xs={6}  data-aos="fade-left">
+               <Col md={6} lg={6} xs={6} sm={6} data-aos="fade-left">
                
-               <video width="100%" height="100%"  src={Transi}  loop muted autoPlay></video>
+               <video className="myVideo" width="100%" height="100%"  src={Transi}  loop muted autoPlay></video>
                </Col>
               </Row>
               
@@ -146,14 +146,14 @@ import Transi from'./GS/Transition.mp4'
                 </Col>
               </Row>
               <Row data-aos="fade-up" style={{background:"linear-gradient(315deg, #2b4162 0%, #12100e 74%)"}} >
-                <Col md={6} lg={6} xs={6}  data-aos="fade-right">
+                <Col md={6} lg={6} xs={6} sm={6} data-aos="fade-right">
                <p class="tg" style={{color:"#f5f5e4",paddingTop:"20%" ,paddingLeft:"10%"}}><i>Elevate your vision with our premium contact lenses, crafted for optimal comfort and clarity. Explore our range to find the perfect fit for your lifestyle and visual needs.</i></p>
                <br></br>
                     <center><Link to={'./ContactLenses'}><motion.h1 animate={{rotate:[0,10,10,0]}}
              transition={{repeat:Infinity,duration:0}}
               style={{color:"#f5f5e4"}} class="tg"><b><FaEye class="tg"/></b></motion.h1></Link></center>
                 </Col>
-                <Col md={6} lg={6} xs={6}  data-aos="fade-left"  >
+                <Col md={6} lg={6} xs={6} sm={6} data-aos="fade-left"  >
                 <center >
                   <br></br>
                 <Link to="./ContactLenses"><ImageTransition   /></Link>
@@ -174,7 +174,7 @@ import Transi from'./GS/Transition.mp4'
                 <br></br>
                 
                 <Col xs={4} sm={4} md={4} lg={4} data-aos="fade-right">
-                <img src={Eyeframes1} height="100%" width="100%" class="tg"/>
+                <img src={Eyeframes1} height="70%" width="100%" class="tg"/>
                  </Col>
                 
                 <Col xs={4} sm={4} md={4} lg={4}><Marquee speed="250" pauseOnHover gradientWidth="0%">
@@ -191,7 +191,7 @@ import Transi from'./GS/Transition.mp4'
              
               
               </Marquee></Col>
-              <Col xs={4} sm={4} md={4} lg={4} data-aos="fade-left">
+              <Col xs={4} sm={4} md={4} lg={4}  data-aos="fade-left">
               <img src={Eyeframes2} height="100%" width="100%" class="tg" />
                 </Col>
               
