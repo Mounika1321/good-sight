@@ -8,7 +8,7 @@ import Carousel from 'react-bootstrap/Carousel';
         <div>
               <Carousel>
                 <Carousel.Item>
-                  <img src='CarouselImages/ray-ban.JPEG'alt="rayban" height="100%" width="100%"/>
+                  <img src='/CarouselImages/ray-ban.JPEG'alt="rayban" height="100%" width="100%"/>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img src='/CarouselImages/Tommy.JPEG' alt="Tommy" height="100%" width="100%"/>      
@@ -17,7 +17,7 @@ import Carousel from 'react-bootstrap/Carousel';
                   <img src='/CarouselImages/Prada.JPEG' alt="Prada" height="100%" width="100%"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src='/CarouselImages/emporio-armani.JPEG' alt="ax" height="100%" width="100%"/>
+                  <img src='/CarouselImages/emporio-armani.JPG' alt="ax" height="100%" width="100%"/>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img src='/CarouselImages/oakley.JPEG' alt="oakley" height="200%" width="100%"/>      
