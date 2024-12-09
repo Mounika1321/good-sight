@@ -2,7 +2,7 @@ const SunGlassesData=[
     {
         Id:1,
         Title:'Rayban',
-        IMG:'./SunglassesImages/Rayban.jpg',
+        IMG:'../SunglassesImages/Rayban.jpg',
         IMG3:'./SunglassesImages/Rayban1.png',
         IMG4:'./SunglassesImages/Rayban3.png',
         IMG5:'./SunglassesImages/Rayban2.png',
@@ -12,8 +12,8 @@ const SunGlassesData=[
     {
         Id:2,
         Title:'Vogue',
-        IMG:'SunglassesImages/Vogue.png',
-        IMG3:'/SunglassesImages/Vogue1.png',
+        IMG:'../SunglassesImages/Vogue.png',
+        IMG3:'./SunglassesImages/Vogue1.png',
         IMG4:'/SunglassesImages/Vogue2.png',
         IMG5:'/SunglassesImages/Vogue3.png',
         Description:'Vogue sunglasses are celebrated for their chic and fashion-forward designs, blending contemporary trends with sophisticated elegance. The collection features a variety of styles, from bold, oversized frames to sleek, minimalist shapes, catering to diverse fashion tastes. Vogue lenses offer high-quality UV protection and clarity, enhancing both comfort and eye health. Crafted with attention to detail, these sunglasses are made from premium materials for durability and a perfect fit. With their blend of style and functionality, Vogue sunglasses are a statement accessory for those seeking to make a fashionable impression.',
