@@ -20,7 +20,7 @@ import Carousel from 'react-bootstrap/Carousel';
                   <img src='CarouselImages/emporio-armani.jpg' alt="ax" height="100%" width="100%"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src='CarouselImages/oakley.jpeg' alt="oakley" height="200%" width="100%"/>      
+                  <img src='CarouselImages/Oakley.jpeg' alt="oakley" height="200%" width="100%"/>      
                 </Carousel.Item>
                 <Carousel.Item>
                   <img src='CarouselImages/Swaroski.jpeg' alt="swaroski" height="100%" width="100%"/>
