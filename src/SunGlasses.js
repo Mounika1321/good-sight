@@ -35,7 +35,7 @@ import './SunGlasses.css';
                         return(
                           
                             <Col  md={4} lg={4} sm={4} xs={4}>
-                               <Link style={{textDecoration:'none'}} to={`SunGlasses/${curelm.Id}`}>
+                               <Link style={{textDecoration:'none'}} to={`/SunGlasses/${curelm.Id}`}>
                             <Card    style={{ width: '100%' }} data-aos='fade-up'>
                                 
       <Card.Img  class="mm" variant="top" src={curelm.IMG} />
