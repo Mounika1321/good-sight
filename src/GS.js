@@ -76,7 +76,9 @@ import Transi from'./GS/Transition.mp4'
              <NavbarHeader/>
              
              <CarouselImage/>
-             <video   playsinline width="100%" height="100%"  src={GSV}  loop muted autoPlay></video>
+             <video   width="100%" height="100%"  src={GSV}  playsinline loop muted autoPlay>
+              
+             </video>
              
               
       

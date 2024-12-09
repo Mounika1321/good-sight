@@ -259,7 +259,7 @@ import EyeLensesData from "./EyeLensesData";
         <div>
             <NavbarHeader/>
             <br></br> <br></br> <br></br>
-            <video width="100%"  className="img-fluid" alt="Overlay" height="100%" src={Tranvideo}  loop muted autoPlay></video>
+            <video width="100%"  className="img-fluid" alt="Overlay" height="100%" src={Tranvideo}  playsInline loop muted autoPlay></video>
             <br></br>
             <Container>
                 <br></br>
