@@ -15,21 +15,21 @@ import EyeLensesData from "./EyeLensesData";
   export const Lenses = () =>{
     const [showlenses,setlenses] = useState(true);
     //setting state images as default using images path link as img1 from data. 
-    const [imageUrl, setImageUrl] = useState('/SunLenses/Essilor.jpg');
-    const [imageUrl1, setImageUrl1] = useState('/SunLenses/Roden.png');
-    const [imageUrl2,setImageUrl2] = useState('/SunLenses/Nikon.png');
-    const [imageUrl3,setImageUrl3] = useState('/SunLenses/Zeiss.png');
-    const [imageUrl4,setImageUrl4] = useState('/SunLenses/Nova.png');
-    const [imageUrl5,setImageUrl5] = useState('/SunLenses/Hoya.jpeg');
-    const [imageUrl6,setImageUrl6] = useState('/SunLenses/Kodak.jpg');
+    const [imageUrl, setImageUrl] = useState('SunLenses/Essilor.jpg');
+    const [imageUrl1, setImageUrl1] = useState('SunLenses/Roden.png');
+    const [imageUrl2,setImageUrl2] = useState('SunLenses/Nikon.png');
+    const [imageUrl3,setImageUrl3] = useState('SunLenses/Zeiss.png');
+    const [imageUrl4,setImageUrl4] = useState('SunLenses/Nova.png');
+    const [imageUrl5,setImageUrl5] = useState('SunLenses/Hoya.jpeg');
+    const [imageUrl6,setImageUrl6] = useState('SunLenses/Kodak.jpg');
      //setting state images as default using images path link as img1 from data .
-    const [eyeimageUrl, setEyeImageUrl] = useState('/SunLenses/Essilor.jpg');
-    const [eyeimageUrl1, setEyeImageUrl1] = useState('/SunLenses/Roden.png');
-    const [eyeimageUrl2,setEyeImageUrl2] = useState('/SunLenses/Nikon.png');
-    const [eyeimageUrl3,setEyeImageUrl3] = useState('/SunLenses/Zeiss.png');
-    const [eyeimageUrl4,setEyeImageUrl4] = useState('/SunLenses/Nova.png');
-    const [eyeimageUrl5,setEyeImageUrl5] = useState('/SunLenses/Hoya.jpeg');
-    const [eyeimageUrl6,setEyeImageUrl6] = useState('/SunLenses/Kodak.jpg');
+    const [eyeimageUrl, setEyeImageUrl] = useState('SunLenses/Essilor.jpg');
+    const [eyeimageUrl1, setEyeImageUrl1] = useState('SunLenses/Roden.png');
+    const [eyeimageUrl2,setEyeImageUrl2] = useState('SunLenses/Nikon.png');
+    const [eyeimageUrl3,setEyeImageUrl3] = useState('SunLenses/Zeiss.png');
+    const [eyeimageUrl4,setEyeImageUrl4] = useState('SunLenses/Nova.png');
+    const [eyeimageUrl5,setEyeImageUrl5] = useState('SunLenses/Hoya.jpeg');
+    const [eyeimageUrl6,setEyeImageUrl6] = useState('SunLenses/Kodak.jpg');
     
     const EyechangeImage=(imgs1,imgs2)=>
         {
@@ -235,19 +235,19 @@ import EyeLensesData from "./EyeLensesData";
     const Eyelenses=()=>{
        setlenses(true)
        // setting back to default as img1 from data when button clicked again.
-       setEyeImageUrl('/SunLenses/Essilor.jpg')
-       setEyeImageUrl1('/SunLenses/Roden.png')
-       setEyeImageUrl2('/SunLenses/Nikon.png')
-       setEyeImageUrl3('/SunLenses/Zeiss.png')
-       setEyeImageUrl4('/SunLenses/Nova.png')
-       setEyeImageUrl5('/SunLenses/Hoya.jpeg')
-       setEyeImageUrl6('/SunLenses/Kodak.jpg')
+       setEyeImageUrl('SunLenses/Essilor.jpg')
+       setEyeImageUrl1('SunLenses/Roden.png')
+       setEyeImageUrl2('SunLenses/Nikon.png')
+       setEyeImageUrl3('SunLenses/Zeiss.png')
+       setEyeImageUrl4('SunLenses/Nova.png')
+       setEyeImageUrl5('SunLenses/Hoya.jpeg')
+       setEyeImageUrl6('SunLenses/Kodak.jpg')
       }
     
     const SunLenses=()=>{
         setlenses(false)
-        setImageUrl('/SunLenses/Polaroid1.png')
-        setImageUrl1('/SunLenses/Tran1.png')
+        setImageUrl('SunLenses/Polaroid1.png')
+        setImageUrl1('SunLenses/Tran1.png')
         
         }
  
