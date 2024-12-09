@@ -76,7 +76,7 @@ import Transi from'./GS/Transition.mp4'
              <NavbarHeader/>
              
              <CarouselImage/>
-             <video className="myVideo" width="100%" height="100%"  src={GSV}  loop muted autoPlay></video>
+             <video className="myVideo"  playsinline width="100%" height="100%"  src={GSV}  loop muted autoPlay></video>
              
               
       
@@ -88,7 +88,7 @@ import Transi from'./GS/Transition.mp4'
                </Col>
                <Col md={6} lg={6} xs={6} sm={6} data-aos="fade-left">
                
-               <video className="myVideo" width="100%" height="100%"  src={Transi}  loop muted autoPlay></video>
+               <video className="myVideo" width="100%" height="100%"  src={Transi} playsinline loop muted autoPlay></video>
                </Col>
               </Row>
               
