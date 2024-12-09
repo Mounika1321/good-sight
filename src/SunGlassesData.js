@@ -2,7 +2,7 @@ const SunGlassesData=[
     {
         Id:1,
         Title:'Rayban',
-        IMG:'SunglassesImages/Rayban.jpg',
+        IMG:'/SunglassesImages/Rayban.jpg',
         IMG3:'/SunglassesImages/Rayban1.png',
         IMG4:'/SunglassesImages/Rayban3.png',
         IMG5:'/SunglassesImages/Rayban2.png',
